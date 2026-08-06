@@ -5,7 +5,7 @@ class Track::Trophies::IteratedTwentyExercisesTrophy < Track::Trophy
 
   # rubocop:disable Layout/LineLength
   def criteria(track)
-    "Awarded for submitting multiple iterations in %<num_exercises>i exercises" % {
+    "Awarded for submitting multiple iterations across %<num_exercises>i exercises" % {
       num_exercises: NUM_EXERCISES,
       track_title: track.title
     }
